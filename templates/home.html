@@ -1,0 +1,6 @@
+<!-- templates/home.html -->
+<h1>Homepage</h1>
+{% for o in some_list %}
+        {{ o.journal }}
+        <a href="{{ o.journal.url }}">LINK</a>
+{% endfor %}
